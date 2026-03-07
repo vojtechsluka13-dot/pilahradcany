@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pila Hradčany</title>
+
+<style>
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#f2f2f2;
+}
+
+header{
+background:#2e7d32;
+color:white;
+text-align:center;
+padding:30px;
+}
+
+nav{
+background:#1b5e20;
+text-align:center;
+padding:12px;
+}
+
+nav a{
+color:white;
+margin:0 15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+section{
+max-width:1000px;
+margin:auto;
+padding:40px;
+}
+
+h2{
+color:#2e7d32;
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+}
+
+.box{
+background:white;
+padding:20px;
+border-radius:8px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+footer{
+background:#1b5e20;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Pila Hradčany</h1>
+<p>Prodej zpracovaného dřeva – fošny, prkna, latě, hranoly</p>
+</header>
+
+<nav>
+<a href="#onas">O nás</a>
+<a href="#produkty">Produkty</a>
+<a href="#kontakt">Kontakt</a>
+<a href="#mapa">Mapa</a>
+</nav>
+
+<section id="onas">
+<h2>O nás</h2>
+<p>
+Pila Hradčany se zabývá prodejem a zpracováním dřeva.
+Nabízíme veškerý dřevařský sortiment:
+fošny, prkna, latě, hranoly a sušené truhlářské řezivo.
+</p>
+</section>
+
+<section id="produkty">
+<h2>Produkty</h2>
+
+<p>Nabízíme veškerý dřevařský sortiment:</p>
+
+<div class="services">
+
+<div class="box">
+<h3>Prkna</h3>
+<p>Stavební prkna různých rozměrů.</p>
+</div>
+
+<div class="box">
+<h3>Fošny</h3>
+<p>Masivní fošny vhodné pro stavby i truhlářské projekty.</p>
+</div>
+
+<div class="box">
+<h3>Latě</h3>
+<p>Latě pro střechy a konstrukce.</p>
+</div>
+
+<div class="box">
+<h3>Hranoly</h3>
+<p>Konstrukční hranoly různých velikostí.</p>
+</div>
+
+<div class="box">
+<h3>Sušené truhlářské řezivo</h3>
+<p>Kvalitní dřevo pro truhláře a výrobu nábytku.</p>
+</div>
+
+<div class="box">
+<h3>Řezání na míru</h3>
+<p>Upravíme dřevo podle vašich požadavků.</p>
+</div>
+
+</div>
+</section>
+
+<section id="cenik">
+<h2>Ceník</h2>
+<p>
+Cena dřeva se liší podle typu a rozměru.<br>
+Kontaktujte nás a rádi připravíme individuální nabídku.
+</p>
+</section>
+
+<section id="kontakt">
+<h2>Kontakt</h2>
+
+<p><b>Pila Hradčany</b></p>
+
+<p>📍 Adresa: Hradčany – Ralsko 497</p>
+<p>📞 Telefon: 777 344 739</p>
+<p>✉️ Email: jaroslasluka@seznam.cz</p>
+
+<h3>Otevírací doba</h3>
+<p>Po–Pá: 7:00 – 15:00</p>
+<p>Sobota: 8:00 – 11:00</p>
+
+</section>
+
+<section id="mapa">
+<h2>Kde nás najdete</h2>
+
+<iframe
+    src="https://www.google.com/maps?q=Hradcany+Ralsko+497&output=embed"
+    width="100%"
+    height="350"
+    style="border:0;"
+    allowfullscreen=""
+    loading="lazy">
+</iframe>
+
+<p>Adresa: Hradčany – Ralsko 497</p>
+</section>
+
+<footer>
+<p>© 2026 Pila Hradčany</p>
+</footer>
+
+</body>
+</html>
